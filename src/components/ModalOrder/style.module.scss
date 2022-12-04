@@ -1,0 +1,75 @@
+.container {
+    width: 620px;
+    background-color: var(--dark-700);
+    color: var(--white);
+}
+
+.container h2 {
+    margin: 1rem 0;
+}
+
+.table {
+    font-size: 1.3rem;
+}
+
+.containerItem {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+
+    strong {
+        color: var(--red-900);
+    }
+
+    .itemContent {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .price {
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+    }
+}
+
+.description {
+    margin-top: 0.5rem;
+    align-self: f;
+    // se chegar a descricao no final do modal, quebrar linha
+    word-break: break-all;
+}
+
+.total {
+    display: block;
+    margin-top: 1.8rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.containerButton {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttonOrder {
+    margin-top: 1.5rem;
+    background-color: rgba(0, 0, 0, 40%);
+    border: 0;
+    padding: 0.5rem 1rem;
+    border-radius: 0.2rem;
+    font-size: 1.4rem;
+    color: var(--green-900);
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .container {
+        width: 330px;
+    }
+}
