@@ -51,10 +51,10 @@ git clone https://github.com/leowingss/sistema-web-pizzaria.git
 cd sistema-web-pizzaria
 
 # Instalar dependências
-yarn install
+yarn install ou npm install
 
 # Executar o projeto
-yarn dev
+yarn dev ou npm run dev
 
 # Abrir projeto
 
